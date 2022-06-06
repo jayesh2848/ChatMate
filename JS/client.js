@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io(192.168.1.130');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
